@@ -1,0 +1,130 @@
+body {
+  /* display: inline-block; */
+  text-align: center;
+  margin: 60px;
+  font-family: "Merriweather", serif;
+  font-size: 200%;
+  background-color: #EAF6F6;
+}
+
+
+span {
+  text-decoration: underline;
+}
+
+.top-container {
+  margin-top: 100px;
+  position: relative;
+  padding-left: 550px;
+  background-color: #EAF6F6;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+.middle-container{
+    background-color: #EAF6F6;
+    width: 100%;
+}
+
+
+
+.bottom-container{
+    background-color: #EAF6F6;
+  margin-bottom: 30px;
+
+}
+
+.bottom-container1 {
+  color: #11999e;
+  background-color: #66BFBF;
+  margin-top: 30px;
+  display: block;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 30%;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.mountain {
+  height: 400px;
+  width: 700px;
+}
+
+.mayank {
+  height: 250px;
+  width: 250px;
+}
+.html {
+  width: 20%;
+
+ 
+}
+
+
+.cpp {
+  width: 20%;
+ 
+
+}
+.css {
+  width: 20%;
+}
+.flutter {
+  width: 20%;
+}
+
+.skill-row {
+  width:50%;
+  margin:100px auto 100px auto;
+  line-height:2;
+}
+
+.footer-link {
+  color: #11999e;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.p{
+    color: #40514E;
+}
+
+hr {
+    border: 8px dotted #0ddaed;
+    border-style: dotted none none;
+    width: 15%;
+}
+
+.btn{
+  background-color: #11999e; /* Green */
+  border: dotted 1px #0ddaed;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
