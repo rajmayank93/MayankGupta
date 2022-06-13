@@ -98,8 +98,10 @@ h3 {
 
 .skill-row {
   width:50%;
-  margin:100px auto 100px auto;
+  /* margin:100px auto 100px auto; */
   line-height:2;
+  display: inline-flex;
+  margin-right: 50px;
 }
 
 .footer-link {
@@ -119,12 +121,27 @@ hr {
 }
 
 .btn{
-  background-color: #11999e; /* Green */
-  border: dotted 1px #0ddaed;
-  color: white;
-  padding: 15px 32px;
+  background-color: #11999e;
+  border: 1px solid #11999e;
+  color: #fff;
+  font-weight: 700;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 13px 22px;
+  margin-right: 50px;
+  text-transform: uppercase;
+  border-radius: 6px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  margin-top: 20px;
   font-size: 16px;
+  cursor: pointer;
+  transition: all .3s ease-in-out 0s;
+  text-align: center;
+}
+
+.spcl{
+  width: 100%;
 }
